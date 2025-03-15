@@ -5,7 +5,6 @@
  */
 
 
-
 import javax.imageio.ImageIO;
 import javax.sound.sampled.*;
 import javax.swing.*;
@@ -26,13 +25,13 @@ public class Controller {
         return new ImageIcon(icon.getImage().getScaledInstance(width, height, java.awt.Image.SCALE_SMOOTH));
     }
 
-    private final ImageIcon bombIcon = scaleImageIcon(new ImageIcon("src/minesweeper/res/bomb.png"), 80, 55);
-    private final ImageIcon flagIcon = scaleImageIcon(new ImageIcon("src/minesweeper/res/flag.png"), 65, 65);
+    private final ImageIcon bombIcon = scaleImageIcon(new ImageIcon("src/res/bomb.png"), 80, 55);
+    private final ImageIcon flagIcon = scaleImageIcon(new ImageIcon("src/res/flag.png"), 65, 65);
 
 
     public Controller(int numRows, int numCols, int numMines) {
         try { //background music
-            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("C:\\Users\\totho\\OneDrive\\Documents\\javaLabor\\projekt\\pirates.wav"));
+            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("D:\\personalProjects\\personal_projects\\minesweeper\\pirates.wav"));
             clip = AudioSystem.getClip();
             clip.open(audioInputStream);
             clip.loop(Clip.LOOP_CONTINUOUSLY);
