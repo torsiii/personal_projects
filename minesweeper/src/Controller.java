@@ -31,7 +31,7 @@ public class Controller {
 
     public Controller(int numRows, int numCols, int numMines) {
         try { //background music
-            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("D:\\personalProjects\\personal_projects\\minesweeper\\pirates.wav"));
+            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("src/res/pirates.wav"));
             clip = AudioSystem.getClip();
             clip.open(audioInputStream);
             clip.loop(Clip.LOOP_CONTINUOUSLY);
