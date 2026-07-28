@@ -1,0 +1,13 @@
+java-webshop-dao/gradlew
+java-webshop-dao/gradlew.bat
+java-webshop-dao/gradle/wrapper/gradle-wrapper.jar
+java-webshop-dao/gradle/wrapper/gradle-wrapper.properties
+java-webshop-dao/spring/src/main/resources/application-jdbc.yml
+java-webshop-dao/spring/src/main/resources/application-mem.yml
+java-webshop-dao/spring/src/main/resources/application.yml
+java-webshop-dao/gradle/wrapper/gradle-wrapper.jar
+java-webshop-dao/gradle/wrapper/gradle-wrapper.properties
+miniRDBMS/query_output.txt
+.gitignore
+miniRDBMS/malna.txt
+miniRDBMS/db_meta.json
