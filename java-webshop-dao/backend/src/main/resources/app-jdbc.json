@@ -1,0 +1,14 @@
+{
+  "daoType": "JDBC",
+  "jdbc": {
+    "url": "jdbc:postgresql://localhost:5432/webshop",
+    "username": "your_username",
+    "password": "your_password",
+    "maximumPoolSize": 10,
+    "minimumIdle": 2,
+    "idleTimeoutMs": 60000,
+    "maxLifetimeMs": 1800000,
+    "poolName": "WebShopPool",
+    "driverClassName": "org.postgresql.Driver"
+  }
+}

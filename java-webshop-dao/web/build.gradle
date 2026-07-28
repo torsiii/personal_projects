@@ -1,0 +1,12 @@
+plugins {
+    id 'war'
+    id 'java'
+}
+
+dependencies {
+    implementation project(':backend')
+    compileOnly 'jakarta.servlet:jakarta.servlet-api:6.0.0'
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.20.1")
+    // https://mvnrepository.com/artifact/ch.qos.logback/logback-classic
+    runtimeOnly("ch.qos.logback:logback-classic:1.5.20")
+}
